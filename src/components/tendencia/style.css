@@ -1,0 +1,51 @@
+.tend-container {
+    background-color: rgb(238, 238, 238);
+    width: 100%;   
+}
+
+.tend-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: solid 1px rgb(196, 194, 194);
+}
+
+.tend-row .c1 {
+    width: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;  
+    line-height: 0px;   
+    color: gray;
+}
+
+.tend-row .c1>h6 {
+    margin-left: 20px;
+}
+
+.tend-row .c1>.tend-icon {
+    margin-top: 5%;
+}
+
+.tend-row .c2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: -3%;    
+}
+
+.tend-row .c2>h5 {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 0px;
+    color: black;
+}
+
+.tend-row .c2>h6 {
+    color: gray;
+    margin-left: 5px;
+    font-size: 10px;
+    margin-bottom: 3%;
+}

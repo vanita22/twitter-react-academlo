@@ -1,0 +1,84 @@
+.tweet-container{
+    display: flex;
+    flex-direction: column;   
+    width: 90%;
+    padding: 1em;
+    margin: 0 auto;
+    border: solid 1px rgb(212, 210, 210);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.c1 {
+    flex-basis: 7%;
+}
+
+.c1>img{
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+}
+
+.c2{
+    padding: 0px 15px;
+}
+.c2>h5{
+    text-align: left;
+    margin: 5px 0px;
+    color: rgb(168, 163, 163);
+}
+.c2>h6{
+    text-align: left;
+    margin: 5px 0px;
+    font-size: 1em;
+}
+
+.row>.content{
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+}
+
+.icon-tweet {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray;    
+}
+
+.icon-tweet>.c1 {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.icon-tweet>.c1>p {
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.icon-tweet .c2 {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.icon-tweet>.c2>p {
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+.icon-tweet .c3 {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.icon-tweet>.c3>p {
+    margin-top: -5px;
+    margin-left: 5px;
+}
